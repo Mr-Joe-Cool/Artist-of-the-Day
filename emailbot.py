@@ -14,7 +14,7 @@ if str(date.today()) not in list(days.keys()):
 
     email_sender = 'defnotanemailbot@gmail.com'
     email_password = "xjse eevc ptbw prms"
-    email_reciever = "walkingtech43@gmail.com"
+    email_reciever = days["email"]
 
     subject = f"Painter of the Day: {title}"
     body = text
